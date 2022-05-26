@@ -129,6 +129,12 @@ body {
   padding: 44px 55px;
 }
 
+@media (max-width: 767.98px) {
+  .category .row-card .card {
+    padding: 30px 40px;
+  }
+}
+
 .category .row-card .card:hover {
   background-color: #ff8947;
   color: #fff;
@@ -142,6 +148,12 @@ body {
 .category .row-card .card h2 {
   font-size: 20px;
   font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .category .row-card .card h2 {
+    font-size: 16px;
+  }
 }
 
 .product {
