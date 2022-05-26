@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- BoxIcons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Infurniture</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-xxl-4 py-xl-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5 mt-4 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-3" href="#">Produk Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Flash Sale
+                <small class="badge text-bg-danger promo">Live</small></a
+              >
+            </li>
+          </ul>
+          <div class="btn-auth mt-5 mt-lg-0">
+            <a
+              href="#"
+              class="btn-second shadow-sm me-lg-3 text-center d-block d-lg-inline"
+              >Masuk</a
+            >
+            <a
+              href="#"
+              class="btn-first shadow-sm d-block text-center mt-3 mt-lg-0 d-lg-inline"
+              >Daftar</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Start -->
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Swiper -->
+            <div class="swiper mySwiperHeader position-relative">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/bannner.png" class="img-fluid" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/bannner.png" class="img-fluid" alt="" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="images/bannner.png" class="img-fluid" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-inline position-absolute btn-slider d-none d-sm-block"
+              >
+                <span class="me-1"
+                  ><i class="bx bx-chevron-left-circle btn-slide1"></i
+                ></span>
+                <span
+                  ><i class="bx bx-chevron-right-circle btn-slide2"></i
+                ></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header End -->
+
+    <!-- Banner Start -->
+    <section class="banner mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card border-0 position-relative">
+              <div class="card-body">
+                <img src="images/banner1.png" class="img-fluid" alt="" />
+                <div class="detail position-absolute px-4">
+                  <h1 class="mb-3">Comport Sofa</h1>
+                  <a href="#" class="btn-first py-2 px-3">Lihat Produk</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 position-relative">
+              <div class="card-body">
+                <img src="images/banner2.png" class="img-fluid" alt="" />
+                <div class="detail position-absolute px-4">
+                  <h1 class="mb-3">Kursi Santai</h1>
+                  <a href="#" class="btn-first py-2 px-3">Lihat Produk</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 position-relative">
+              <div class="card-body">
+                <img src="images/banner3.png" class="img-fluid" alt="" />
+                <div class="detail position-absolute px-4">
+                  <h1 class="mb-3">Kursi Cafe</h1>
+                  <a href="#" class="btn-first py-2 px-3">Lihat Produk</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner End -->
+
+    <!-- Category Start -->
+    <section class="category">
+      <div class="container">
+        <div class="row row-title">
+          <div class="col-12">
+            <h1>Kategori Produk</h1>
+          </div>
+        </div>
+        <div class="row row-card mt-5">
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/kursi.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Kursi</h2>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/meja.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Meja</h2>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/lemari.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Lemari</h2>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/sofa.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Sofa</h2>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/kasur.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Kasur</h2>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card border-0 text-center">
+              <img src="images/dapur.svg" class="mx-auto" width="70" alt="" />
+              <h2 class="mt-4">Alat Dapur</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Category End -->
+
+    <!-- Product Start -->
+    <section class="product">
+      <div class="container">
+        <div class="row row-title">
+          <div class="col-12">
+            <h1>Beberapa Produk Kami</h1>
+          </div>
+        </div>
+        <div class="row row-card mt-5">
+          <div class="col-lg-3">
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product End -->
+
+    <!-- Bootstrap Script -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- JS Custom -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
