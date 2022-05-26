@@ -116,7 +116,7 @@ body {
       border-radius: 15px;
       padding: 44px 55px;
       @include media-breakpoint-down(md) {
-        padding: 30px 40px;
+        padding: 30px;
       }
 
       &:hover {
