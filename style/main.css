@@ -324,4 +324,17 @@ body {
     font-size: 14px;
   }
 }
+
+.footer {
+  margin-top: 200px;
+}
+
+.footer .sosmed i {
+  font-size: 40px;
+  color: #ff8947;
+}
+
+.footer ul li {
+  margin: 20px 0;
+}
 /*# sourceMappingURL=main.css.map */

@@ -269,3 +269,19 @@ body {
     }
   }
 }
+
+.footer {
+  margin-top: 200px;
+
+  .sosmed {
+    i {
+      font-size: 40px;
+      color: $first;
+    }
+  }
+  ul {
+    li {
+      margin: 20px 0;
+    }
+  }
+}
