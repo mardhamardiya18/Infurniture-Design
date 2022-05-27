@@ -27,3 +27,12 @@ $(document).ready(function(){
         $('.btn-slide1').removeClass('bxs-chevron-left-circle')
     })
 })
+
+$(document).ready(() => {
+    $(document).scroll(()=> {
+        $('.navbar').toggleClass('shadow-sm scrolled', $(this).scrollTop() > $('.navbar').height())
+    })
+})
+
+
+

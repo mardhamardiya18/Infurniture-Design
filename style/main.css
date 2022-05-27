@@ -2,8 +2,8 @@
 * {
   text-decoration: none !important;
   list-style: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -23,6 +23,12 @@ body {
   color: #adb5bd;
 }
 
+@media (max-width: 1399.98px) {
+  .btn-first {
+    padding: 10px 20px;
+  }
+}
+
 .btn-second {
   padding: 15px 30px;
   font-weight: 600;
@@ -34,6 +40,27 @@ body {
 .btn-second:hover {
   background-color: #ff8947;
   color: #f5f5f5;
+}
+
+@media (max-width: 1399.98px) {
+  .btn-second {
+    padding: 10px 20px;
+  }
+}
+
+.navbar.scrolled {
+  padding: 15px 0 !important;
+}
+
+@media (max-width: 1399.98px) {
+  .navbar.scrolled {
+    padding: 0;
+  }
+  .navbar.scrolled img {
+    width: 120px;
+    -webkit-transition: 0.3s ease-in-out !important;
+    transition: 0.3s ease-in-out !important;
+  }
 }
 
 .nav-link .promo {
@@ -61,7 +88,23 @@ body {
   }
 }
 
-.swiper .btn-slider {
+.header {
+  margin-top: 200px !important;
+}
+
+@media (max-width: 1399.98px) {
+  .header {
+    margin-top: 140px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    margin-top: 120px !important;
+  }
+}
+
+.header .swiper .btn-slider {
   z-index: 1000;
   right: 30px;
   bottom: 30px;
@@ -70,29 +113,29 @@ body {
   font-size: 50px;
 }
 
-.swiper .btn-slider.swiper-button-disabled {
+.header .swiper .btn-slider.swiper-button-disabled {
   color: #92481e !important;
 }
 
 @media (max-width: 1199.98px) {
-  .swiper .btn-slider {
+  .header .swiper .btn-slider {
     right: 20px;
     bottom: 20px;
     font-size: 40px;
   }
 }
 
-.swiper .swiper-pagination-bullet {
+.header .swiper .swiper-pagination-bullet {
   background-color: #fff;
 }
 
-.swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.header .swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
   border: 5px solid #ff8947 outset;
   padding: 5px;
 }
 
 @media (max-width: 767.98px) {
-  .swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  .header .swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
     border: 1px solid #ff8947 outset;
     padding: 1px;
   }
@@ -100,6 +143,12 @@ body {
 
 .banner {
   margin-top: 100px !important;
+}
+
+@media (max-width: 767.98px) {
+  .banner {
+    margin-top: 70px !important;
+  }
 }
 
 .banner .card .detail {
@@ -135,6 +184,12 @@ body {
   padding: 44px 55px;
 }
 
+@media (max-width: 1399.98px) {
+  .category .row-card .card {
+    padding: 40px 50px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .category .row-card .card {
     padding: 30px;
@@ -154,6 +209,12 @@ body {
 .category .row-card .card h2 {
   font-size: 20px;
   font-weight: 700;
+}
+
+@media (max-width: 1399.98px) {
+  .category .row-card .card h2 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -222,6 +283,12 @@ body {
   color: #1a1a1a;
 }
 
+@media (max-width: 1399.98px) {
+  .product .row-card .card .name-product {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .product .row-card .card .name-product {
     font-size: 16px;
@@ -244,6 +311,12 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #ff8947;
+}
+
+@media (max-width: 1399.98px) {
+  .product .row-card .card .price {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 767.98px) {
